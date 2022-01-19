@@ -1,7 +1,7 @@
 {
-  "name": "dp-leetcode-typescript",
+  "name": "leetcode-dp-typescript",
   "version": "1.0.0",
-  "description": "Create New TypeScript Project with all the bells and whistles",
+  "description": "LeetCode Dynamic Programming Solutions in TypeScript",
   "scripts": {
     "prettier-staged": "pretty-quick --staged",
     "lint": "eslint \"**/*.ts\" --fix",
@@ -9,6 +9,10 @@
     "test-changed": "jest --onlyChanged",
     "code": "ts-node code.ts",
     "prepare": "husky install"
+  },
+  "author": {
+    "name": "Manan Tank",
+    "email": "manantankm@gmail.com"
   },
   "license": "ISC",
   "devDependencies": {
